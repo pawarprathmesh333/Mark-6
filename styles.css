@@ -1,0 +1,59 @@
+
+:root {
+    --primary: #F2C94C;
+    --black: #333333;
+    --width-break: 600px;
+}
+body {
+    text-align: center;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #333333;
+}
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+textarea {
+    
+    margin: auto;
+    box-sizing: border-box;
+    display: block;
+    width: 60%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+div {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+#translate-output {
+   
+    margin: auto;
+    box-sizing: border-box;
+    width: 60%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
